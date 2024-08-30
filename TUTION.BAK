@@ -1,0 +1,73 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+	char st_name,f_name,s_add;
+	int s_mno,s_adhar,i;
+	//clrscr();
+      /*	printf("%c",169);
+	for(i=0;i<=76;i++)
+		printf("%c",196);
+	printf("%c",170);
+	for(i=1;i<=24;i++)
+		printf("\n%c",179);
+      //  for(i=77;i<=
+	//gotoxy(30,12);
+	for(i=0;i<=5;i++)
+	{
+		gotoxy(30,12);
+		printf("%c",2);
+	}
+	//clrscr();
+	delay(2000);//for(i=0;i<=5;i++)
+
+       //	textcolor(RED+BLINK);
+      //	printf(textcolor(RED+BLINK),"%c%c%c WELCOME TO DCC %c%c%c",4,3,4,4,3,4,"\n");
+      gotoxy(30,12);
+      printf("%c%c%c WELCOME TO DCC %c%c%c",3,4,3,3,4,3,"\n");
+      //	clrscr();
+     // gotoxy(35,12);//clrscr();
+    //  gotoxy(36,13);
+    delay(5006);
+	printf("\n%c LOGIN %c  ",234,16);
+	//Printf(); */
+	void start();
+	 clrscr();
+	 start();
+void start{
+textcolor(RED+BLINK);gotoxy(30,12);
+priintf("Welcome To Dcc...");
+//clrscr();
+}
+
+
+
+
+
+
+		   d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	getch();}

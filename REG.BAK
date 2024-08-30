@@ -1,0 +1,116 @@
+#include<stdio.h>
+#include<conio.h>
+#include<CONIO.H>
+int i;
+//char *str=" WELCOME TO DCC";
+char tname[30],name[30];char stname[30],sfname[30],add[100];
+int aadhar,mob,fee;
+int choice;
+void start();
+void logpage();
+void teacher();
+void student();
+void main()
+{
+	int i;char *str="1 1 1 1 1";
+	clrscr(); printf("%c",218);
+	for(i=0;i<=76;i++){printf("%c",196);}
+	printf("%c",170);
+	for(i=0;i<=22;i++){printf("%c\n",179);}  printf("%c",217);
+	gotoxy(22,0);for(i=0;i<=76;i++){printf("%c",196); }
+	//void start();
+       //	void logpage();
+  //	void teacher();
+	//void student();
+       //	clrscr();//window(0,0,16,7);
+      // for(i=0;i<=1;i++)
+	      //	printf("%c",169);
+	//textbackground(23);
+	gotoxy(35,13);
+	for(i=0;i<=strlen(str);i++){
+	textcolor(20+i);
+	cprintf("%c",1,str[i]);
+	delay(200);}
+       //	printf("%c",1);
+	delay(1500);
+	clrscr();
+	start();
+	clrscr();
+	gotoxy(32,11);
+	for(i=0;i<=10;i++){textcolor(24);printf("%c",196);}printf("\n");
+	gotoxy(32,12);
+	textcolor(RED+BLINK);
+	cprintf("%c Login...",234);
+	printf("\n\t\t\t       ");
+	for(i=0;i<=10;i++){textcolor(24);printf("%c",196);}
+	delay(1500);
+	logpage();
+	getch();
+}
+void start()
+{       gotoxy(32,12);//int i; char * str=" WELCOME TO DCC";
+	textcolor(RED);
+    //textmode(BW40);
+//    for(i=0;i<=strlen(str);i++){
+	for(i=0;i<=23;i++) {textcolor(25);printf("%c",196);}printf("\n\t\t\t\t");
+	cprintf("%c%c%c WELCOME TO DCC %c%c%c",4,3,4,4,3,4);
+	printf("\n\t\t\t       ");for(i=0;i<=23;i++){textcolor(25);printf("%c",196);  }
+	delay(6000);
+    //	delay(120);}
+      // LASTMODE;
+       //normvideo();
+	 clrscr();
+}
+void logpage()
+{
+       //	int choice;
+	clrscr(); printf("\n");textcolor(RED);textbackground(0);
+	cprintf("%c1.%c Teacher    %c2.%c Student    %c0.%c Exit.\n ",91,93,91,93,91,93);
+	scanf("%d",&choice);
+	delay(500); }
+       /*	if(choice==1) ;
+	       teacher();
+	if(choice==2)
+		student();
+	if(choice==0)
+		//exit 0;*/
+/*	swithc(choice)
+	{
+	case<1>:
+		teacher();
+		break;
+	case<2>:
+		Student();
+		break;
+	case<0>:
+		exit(0);
+		break; }
+
+
+}
+void teacher()
+{
+     //	char name[30];
+	printf(" Enter Your Name: ");
+	gets(tname);  delay(500);
+	printf("%s",name);
+}
+void student()
+{
+       //	char s_name[30],sf_name[30],add[100];
+  //	int aadharno[12],mobno[10];
+	printf("Name : ");
+	gets(sname);
+	printf("Father's Name : ");
+	gets(sfname);
+	printf("Address : ");
+	gets(add);
+	printf("Mob.No : ");
+	gets(mob);
+	printf("Aadhar No. : ");
+	gets(aadhar);
+	delay(400);
+	//printf("%s\n%s\n%s\n%s\n%s",s_name,sf_name,add,aadharno,mobno);
+}
+
+}*/
