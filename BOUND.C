@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i;
+	textbackground('5');
+//	clrscr();
+printf("%c",201);for(i=0;i<30;i++){printf("%c",205);}printf("%c",187);
+//gotoxy(30,1);
+for(i=0;i<20;i++){printf("\n%c",186);}
+//for(i=0;i<20;i++){printf("\n%c",186);}printf("\n%c",200);for(i=0;i<30;i++){printf("%c",205);  }
+	printf("%c",188);
+	getch();
+	return 0;
+
+}
